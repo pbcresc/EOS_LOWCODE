@@ -21,9 +21,20 @@ $ docker run
 ## 社区版VS企业版
 功能 | 社区版 | 企业版
 ---|:---:|:---:
-数据库支持| mysql5.7+ | mysql5.7+、oracle11g+、dm8、
-xxxx| :x: | :white_check_mark:
-
+数据库支持| mysql5.7+ | mysql5.7+、oracle11g+、dm8、gauss9
+浏览器支持| chrome | chrome、firefox、edge
+实体建模| :white_check_mark: | :white_check_mark:
+页面开发| :white_check_mark: | :white_check_mark:
+流程开发| :white_check_mark: | :white_check_mark:
+服务开发| :white_check_mark: | :white_check_mark:
+统一组织机构| :white_check_mark: | :white_check_mark:
+统一资源授权| :white_check_mark: | :white_check_mark:
+应用数量| 1 | 不限
+应用数据源| 1 | 不限
+应用并发| 20 | 不限
+报表大屏设计| :x: | :white_check_mark:
+生成离线代码工程| :x: | :white_check_mark:
+集群部署| :x: | :white_check_mark:
 
 ## 联系我们
 如果你喜欢EOS_LOWCODE产品，可以放心从社区版开始使用，我们会努力维护社区版的稳定，后期在不影响公司商业的前提下，会逐步开放产品更多的代码模块。

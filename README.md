@@ -37,5 +37,5 @@ $ docker run
 集群部署| :x: | :white_check_mark:
 
 ## 联系我们
-如果你喜欢EOS_LOWCODE产品，可以放心从社区版开始使用，我们会努力维护社区版的稳定，后期在不影响公司商业的前提下，会逐步开放产品更多的代码模块。
-如果你发现产品有任何Bug，可通过[Issue](https://github.com/pbcresc/EOS_LOWCODE/issues)向我们反馈.
+如果你喜欢EOS_LOWCODE产品，可以从社区版开始试用，我们会努力维护社区版的稳定，后期在不影响公司商业的前提下，会逐步开放产品模块源码。
+如果你发现产品有任何Bug，可通过[Issue](https://github.com/pbcresc/EOS_LOWCODE/issues)向我们反馈。

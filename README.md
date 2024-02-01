@@ -39,4 +39,7 @@ $ docker run
 
 ## 联系我们
 如果你喜欢EOS_LOWCODE产品，可以从社区版开始试用，我们会努力维护社区版的稳定，后期在不影响公司商业的前提下，会逐步开放产品模块源码。
+
 如果你发现产品有任何Bug，可通过[Issues](https://github.com/pbcresc/EOS_LOWCODE/issues)向我们反馈。
+
+如果你希望使用企业版或得到更多服务，可致电4008205821或访问[普元官网](https://www.primeton.com/)。

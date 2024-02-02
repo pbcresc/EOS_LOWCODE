@@ -15,7 +15,7 @@ EOS_LOWCODE是一款由普元软件主导的低代码产品，紧扣模型驱动
 
 2、容器启动
 ```python
-$ docker run
+$ docker run -d --name eoslowcode -e JAVA_OPTS="-server -DDB_URL=jdbc:mysql://[ip]:[port]/[schema]?characterEncoding=utf8&useSSL=false -DDB_USER=[db_user] -DDB_PASSWD=[db_password]" -p 28079:28079 registry.cn-shanghai.aliyuncs.com/primeton-pub/eoslowcode:8.3.0
 ```
 
 ## 功能特性

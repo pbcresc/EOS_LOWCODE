@@ -23,6 +23,7 @@ $ docker run -d --name eoslowcode -e JAVA_OPTS="-server -DDB_URL=jdbc:mysql://[i
 容器启动后访问
 - [http://localhost:28079](http://localhost:28079)
 - 用户名/密码: admin/000000
+- 首次访问需更改默认密码
 
 
 ## 功能特性
@@ -60,6 +61,10 @@ $ docker run -d --name eoslowcode -e JAVA_OPTS="-server -DDB_URL=jdbc:mysql://[i
 生成离线工程| :x: | :white_check_mark:
 应用监控治理| :x: | :white_check_mark:
 集群部署| :x: | :white_check_mark:
+AI助手| 需独立申请 | 产品默认提供
+
+## AI助手服务申请
+如果你要使用AI能力来辅助日常使用或应用开发，可通过[http://139.224.253.89:28079](http://139.224.253.89:28079)发起申请，目前社区版只提供gpt-35-turbo的服务，在你收到API信息的邮件后，将其配置到，保存后即可使用AI相关服务能力。
 
 ## 联系我们
 如果你喜欢EOS_LOWCODE产品，可以从社区版开始试用，我们会努力维护社区版的稳定，后期在不影响公司商业的前提下，会逐步开放产品模块源码。

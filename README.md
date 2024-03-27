@@ -45,7 +45,7 @@ $ docker run -d --name eoslowcode -e JAVA_OPTS="-server -DDB_URL=jdbc:mysql://[i
 提供工作台门户的配置和展示能力，支持多种门户布局，支持多工作台切换，提供常用widget组件，包括但不限于工作日历、最近使用、快捷入口等。
 
 ## 社区版VS企业版
-功能 | 社区版 | 企业版
+功能 | 社区版 | 企业版 &emsp; [:phone:联系我们](https://www.primeton.com/)
 ---|:---:|:---:
 数据库支持| mysql5.7+ | mysql5.7+、oracle11g+、dm8、gauss9
 浏览器支持| chrome | chrome、firefox、edge

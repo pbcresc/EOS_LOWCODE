@@ -16,7 +16,7 @@ EOS低代码社区版则通过简化云原生部署架构，以容器方式提�
 
 #### 1、数据库初始化
 - 使用Mysql5.7+，Mysql的SQL_MODE中注意不要包括NO_ZERO_DATE，创建database时，建议字符集（CHARACTER SET）选择utf8，字符排序（COLLATE）选择utf8_bin。
-- 下载
+- 下载all.sql文件，完成数据库初始化
 
 #### 2、容器启动
 ```python
@@ -26,6 +26,10 @@ $ docker run -d --name eoslowcode -e JAVA_OPTS="-server -DDB_URL=jdbc:mysql://[i
 - [http://localhost:28079](http://localhost:28079)
 - 用户名/密码: admin/000000
 - 首次访问需更改默认密码
+
+#### 3、备选方案
+考虑到一些用户可能用的windows或mac电脑安装，所以使用类似docker desktop来运行容器，且数据库本地也没有提前安装等，这里提供一个本地安装数据库容器并快速初始化的方式，供这类环境使用。
+
 
 
 ## 功能特性

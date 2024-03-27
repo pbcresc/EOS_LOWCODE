@@ -15,7 +15,7 @@ EOS低代码社区版则通过简化云原生部署架构，以容器方式提�
 ## 快速开始
 
 #### 1、数据库初始化
-- 使用Mysql5.7+，创建database时，建议字符集（CHARACTER SET）选择utf8，字符排序（COLLATE）选择utf8_bin。
+- 使用Mysql5.7+，Mysql的SQL_MODE中注意不要包括NO_ZERO_DATE，创建database时，建议字符集（CHARACTER SET）选择utf8，字符排序（COLLATE）选择utf8_bin。
 - 下载
 
 #### 2、容器启动
